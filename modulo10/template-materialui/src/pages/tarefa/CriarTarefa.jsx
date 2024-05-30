@@ -116,9 +116,9 @@ const CriarTarefa = ({handleClose, tarefas, setTarefas}) =>{
                     fontWeight: 400,
                   }} 
                 >
-                  <MenuItem value={'Recurso 1'}>Recurso 1</MenuItem>
-                  <MenuItem value={'Recurso 2'}>Recurso 2</MenuItem>
-                  <MenuItem value={'Recurso 3'}>Recurso 3</MenuItem>
+                  <MenuItem value={'trabalho'}>trabalho</MenuItem>
+                  <MenuItem value={'pessoal'}>pessoal</MenuItem>
+                  <MenuItem value={'estudos'}>estudos</MenuItem>
                 </Select>
               </FormControl>
             </Grid>
@@ -144,10 +144,10 @@ const CriarTarefa = ({handleClose, tarefas, setTarefas}) =>{
             </Grid>
             <Grid container spacing={2} pl={2} mt={2}>
               <Grid item xs={1}>
-                <Button size="small" variant="contained" onClick={handleSalvar}>Salvar</Button>
+                <Button size="small" variant="contained" onClick={handleSalvar}>Add</Button>
               </Grid>  
               <Grid item xs={1}>  
-                <Button size="small" variant="outlined" onClick={handleClose}>Cancelar</Button>  
+                <Button size="small" variant="outlined" onClick={handleClose}>Close</Button>  
               </Grid>
             </Grid>  
           </Grid>
